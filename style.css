@@ -1,9 +1,9 @@
 body {
 	margin: 0;
+	padding: 0;
 }
 .block-1 {
 	height: 25px;
-	width: 100%;
 	background-color: #202123;
 	text-align: right;
 	padding-right: 100px;
@@ -17,4 +17,57 @@ body {
 .block-1-2 {
 	border-left: 2px solid #a7a7a7;
 	padding-left: 5px; 
+}
+.block-2 {
+	height: 120px;
+	margin: 0 100px;
+	display: flex;
+}
+.block-2-1 {
+	height: 110px;	
+	width: 100px;
+	margin-top: 10px;
+	background: url(./image/a.png) no-repeat;
+	background-size: contain -20px;
+}
+.block-2-2 {
+	padding: 0;
+}
+.paragraf-1 {
+	display: block;
+	color: #6a6c6e;
+	font-size: 20px;
+	text-shadow: 3px -4px 10px #cbc6cd;
+	margin: 0;;
+}
+.paragraf-2 {
+	display: block;
+	color: #16579a;
+	font-size: 50px;
+	text-shadow: 0 0 5px #fff,
+			     0 0 5px #333;
+	margin: 0;
+}
+.paragraf-3 {
+	display: block;
+	color: #6a6c6e;
+	font-size: 30px;
+	text-shadow: 3px -3px 5px #cbc6cd;
+	margin: 0;
+	padding:0 0 0 90px;
+}
+.block-3 {
+	height: 20px;
+	margin: 0 100px;
+	background-color: #363636;
+	padding: 10px 0;
+}
+.block-3-1 {
+	height: 30px;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.block-3-1:hover, .block-1-1:hover {
+	color: #f6ce49;
 }

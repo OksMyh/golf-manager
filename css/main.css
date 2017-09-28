@@ -222,7 +222,7 @@ main {
 
 .block-5 {
     background-color: #fafafa;
-    padding: 2% 0 2%;
+    padding: 2% 0 5%;
 }
 .register {
     width: 30%;
@@ -267,4 +267,16 @@ main {
 .register_info_title {
     font-size: 21px;
     color: #ffffff;
+}
+
+
+/*****BLOCK-6*****/
+
+.tournament_text {
+    font-size: 18px;
+    color: #fafafa;
+    background-color: #78797b;
+    width: 30%;
+    border-radius: 5px;
+    padding: 7px;
 }

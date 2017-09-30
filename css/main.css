@@ -4,6 +4,9 @@
 body {
     font:  14px Calibri, sans-serif;
 }
+a {
+    text-decoration: none;
+}
 aside {
     width: 9%;
     float: right;
@@ -272,11 +275,41 @@ main {
 
 /*****BLOCK-6*****/
 
-.tournament_text {
+.tour_text {
     font-size: 18px;
     color: #fafafa;
     background-color: #78797b;
     width: 30%;
     border-radius: 5px;
     padding: 7px;
+}
+
+/****BLOCK-7*****/
+
+.block-7 {
+    padding-bottom: 50px;
+}
+.tournament {
+    width: 50%;
+    float: left;
+}
+.tournament_text {
+    font-size: 20px;
+    padding: 10px;
+}
+.tournament_image{}
+.tournament_image_image {
+    width: 47%;
+    float: left;
+    margin-right: 3%;
+}
+.tournament_image_title {
+    width: 50%;
+    float: right;
+}
+.tournament_image_title a {
+    color: #539eef;
+}
+.tournament_image_info {
+    font-size: 16px;
 }

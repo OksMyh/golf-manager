@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/fontAwesome/fontawesome-webfont.eot?v=4.6.3');
+    src: url('../fonts/fontAwesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+    url('../fonts/fontAwesome/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+    url('../fonts/fontAwesome/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+    url('../fonts/fontAwesome/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+    url('../fonts/fontAwesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+}
+/*font-family: 'Calibri';*/
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri/Calibri.eot');
+    src: url('../fonts/Calibri/Calibri.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Calibri/Calibri.woff') format('woff'),
+         url('../fonts/Calibri/Calibri.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: 'Calibri-Bold';*/
+@font-face {
+    font-family: 'Calibri-Bold';
+    src: url('../fonts/Calibri/Calibri-Bold.eot');
+    src: url('../fonts/Calibri/Calibri-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Calibri/Calibri-Bold.woff') format('woff'),
+    url('../fonts/Calibri/Calibri-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+/*font-family: 'AvantGarde';*/
+@font-face {
+    font-family: 'AvantGarde';
+    src: url('../fonts/AvantGarde/AvantGarde.eot');
+    src: url('../fonts/AvantGarde/AvantGarde.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvantGarde/AvantGarde.woff') format('woff'),
+    url('../fonts/AvantGarde/AvantGarde.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}

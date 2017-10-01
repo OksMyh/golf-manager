@@ -3,18 +3,30 @@
 }
 body {
     font:  14px Calibri, sans-serif;
+    background: #f7fbfe url("../image/background-color.jpg") repeat;
 }
 a {
     text-decoration: none;
+    color: #fff;
 }
 aside {
-    width: 9%;
-    float: right;
+    /*width: 9%;*/
+    /*float: right;*/
+    position: absolute;
 }
 main {
     width: 82%;
-    float: left;
-    margin-left: 9%;
+    margin: 0 9%;
+    background-color: #fafafa;
+}
+.block-3,
+.block-4,
+.block-5,
+.block-6,
+.block-7,
+.block-8 {
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
 }
 .clearfix:after,
 .clearfix:before {
@@ -50,6 +62,7 @@ main {
 
 
 .block-2 {
+    background: #f7fbfe url("../image/background-color.jpg") repeat;
     height: 115px;
     overflow: hidden;
 }
@@ -336,14 +349,26 @@ main {
 .videos {
     background: url("../image/icon-videos.png") no-repeat left center;
 }
+.videos:hover {
+    background: url("../image/videos_hover.png") no-repeat left center;
+}
 .photos {
     background: url("../image/icon-photos.png") no-repeat left center;
+}
+.photos:hover {
+    background: url("../image/photos_hover.png") no-repeat left center;
 }
 .news {
     background: url("../image/icon-news.png") no-repeat left center;
 }
+.news:hover {
+    background: url("../image/news_hover.png") no-repeat left center;
+}
 .schools {
     background: url("../image/icon-schools.png") no-repeat left center;
+}
+.schools:hover {
+    background: url("../image/schools_hover.png") no-repeat left center;
 }
 .blocks a,
 .blocks p {
@@ -353,9 +378,63 @@ main {
     font-size: 18px;
     color: #343434;
 }
-.blocks a:hover {
+.blocks:hover a {
     color: #5ca6f1;
 }
 .blocks p {
     font-size: 12px;
+}
+
+
+/*****FOOTER*****/
+
+
+footer {
+    background: linear-gradient(#595c5e, #57595b, #202223);
+    padding: 2% 9%;
+
+    border: 1px solid transparent;
+    border-image: url(../image/border_up.png) ;
+    border-image-slice: 100% 0;
+    border-image-repeat: round;
+    border-image-width: 3px;
+    border-image-outset: 3px;
+}
+.group {
+    width: 25%;
+    float: left;
+}
+.group-1 {
+   transform-style: preserve-3d;
+}
+.group-1 p {
+    padding: 5px 0 4px 10px;
+    margin-right: 10%;
+}
+.group h2 {
+    font-size: 18px;
+    color: #faed75;
+    border-bottom: 1px solid #7d7e80;
+    padding: 0 0 4px 10px;
+    margin-right: 10%;
+}
+.group a {
+    display: block;
+    padding: 5px 0 0 10px;
+}
+.group p {
+    color: #fff;
+}
+.group_icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+.group_icon_image {
+    vertical-align: middle;
+}
+.group_icon_title {
+    display: inline-block;
+    font-family: Arial;
+    color: #fff;
 }

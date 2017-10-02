@@ -10,9 +10,10 @@ a {
     color: #fff;
 }
 aside {
-    /*width: 9%;*/
-    /*float: right;*/
-    position: absolute;
+    position: fixed;
+    top: 90px;
+    right: 22px;
+    margin-top: 25px;
 }
 main {
     width: 82%;
